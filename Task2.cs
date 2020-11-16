@@ -45,7 +45,7 @@ class Task2
         int i = 0;
         while (i < TestArray.Length)
         {
-            TestArray[i] = -TestArray[i];
+            TestArray[i] = - TestArray[i];
             i++;
         }
     }
@@ -73,7 +73,7 @@ class Task2
             i++;
         }
 
-        int maxCount = 0;
+        int maxCount = 1;
         while (i < TestArray.Length)
         {
             if (TestArray[i] == maxNum)
@@ -112,7 +112,7 @@ class Task2
         int i = 0;
         while (!sr.EndOfStream)
         {
-            list[i] = Int32.Parse(sr.ReadLine());
+            list.Add(Int32.Parse(sr.ReadLine()));
             i++;
         }
 
